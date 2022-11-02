@@ -133,4 +133,4 @@ Parts of this project are based on the following repositories:
 [License](LICENSE.md)
 
 ### IMPORTANT: RUN THIS COMMAND IN A VENV IN PYTHON TO EXECUTE CORRECTLY THE PROGRAM.
-`PYTHONPATH="/home/asrc/01_SDCE_Udacity/Proyecto_3_Sensor-Fusion-and-Object-Tracking/nd013-c2-fusion-starter-main_End_Project/"`
+`PYTHONPATH="/home/asrc/01_SDCE_Udacity/Proyecto_3_Sensor-Fusion-and-Object-Tracking/nd013-c2-fusion-starter-main_End_Project/"` 
