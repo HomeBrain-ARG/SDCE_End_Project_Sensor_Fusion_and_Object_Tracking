@@ -39,7 +39,7 @@ If you have implemented everything correctly, the visualization shows that a new
 ## Step 2 Results:<br />
 
 ### 1) Image showing one confirmed track:<br />
-![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-2_Image-Box.png)<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-2_Image-Box_2.png)<br />
 
 ### 2) Image showing the track deleted:<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-2_Image-Deleted-Track.png)<br />
