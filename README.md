@@ -1,4 +1,4 @@
-## *[Please click here to see a summary of my results!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/blob/main/SUMMARY_OF_RESULTS.md)*
+## *[Please click here to see a summary of my results!](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/SUMMARY_OF_RESULTS.md)*
 
 ## *[Please click here to see the results and the code associated to every exercise!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/tree/main/01_Results)*<br />
 
@@ -138,7 +138,7 @@ Parts of this project are based on the following repositories:
 ### IMPORTANT: RUN THIS COMMAND IN A VENV IN PYTHON TO EXECUTE CORRECTLY THE PROGRAM.
 `PYTHONPATH="/home/asrc/01_SDCE_Udacity/Proyecto_3_Sensor-Fusion-and-Object-Tracking/nd013-c2-fusion-starter-main_End_Project/"` 
 
-## *[Please click here to see a summary of my results!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/blob/main/SUMMARY_OF_RESULTS.md)*
+## *[Please click here to see a summary of my results!](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/SUMMARY_OF_RESULTS.md)*
 
 ## *[Please click here to see the results and the code associated to every exercise!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/tree/main/01_Results)*<br />
  
