@@ -1,4 +1,4 @@
-# *STEP 1:
+# STEP 1:
 ## Your task:<br />
 - The single track is already initialized for you, so don't worry about track initialization right now.<br />
 - In student/filter.py, implement the predict() function for an EKF. Implement the F() and Q() functions to calculate a system matrix for constant velocity process model in 3D and the corresponding process noise covariance depending on the current timestep dt. Note that in our case, dt is fixed and you should load it from misc/params.py. However, in general, the timestep might vary. At the end of the prediction step, save the resulting x and P by calling the functions set_x() and set_P() that are already implemented in student/trackmanagement.py.<br />
