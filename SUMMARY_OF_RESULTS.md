@@ -121,5 +121,5 @@ At the end of the this project we implemented a nonlinear camera measurement mod
 **One of the points we verified was the one shown in Step 1, which is the difference between the marker box and the detected object (the box looks out of phase with respect to the vehicle), this is corrected at the end of the project in Step 4 with the implementation of the Mahalanobis algorithm.**<br />
 
 5) Can you think of ways to improve your tracking results in the future?<br />
-
+**Is a good idea to include pedestrian detection and other objects detection using the classes included in the trained CNN.**<br />
 
