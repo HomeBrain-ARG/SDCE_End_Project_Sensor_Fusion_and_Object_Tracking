@@ -106,7 +106,10 @@ If you have implemented everything correctly, the tracking loop now updates all 
 You are nearly done! To complete the final project, please answer the following questions in a write-up in pdf or markdown format:<br />
 
 1) Write a short recap of the four tracking steps and what you implemented there (EKF, track management, data association, camera-lidar sensor fusion).<br /> 
-**In the first step, an EKF was created with the idea of tracking a single target, it was successfully implemented, although it was noted that the accuracy of the detection was lacking.**<br />
+**In the first step, an EKF was created with the idea of tracking a single target, it was successfully implemented, although it was noted that the accuracy of the detection was lacking.<br />
+In the second step, we implemented a track management with the idea to initialize and delete tracks, set a track state and a track score.<br />
+In the third step we implemented a single nearest neighbor data association to associate measurements to tracks with the idea to improve the performance in comparison to the first step in that we only use EKF to track the target.<br />
+At the end of the this project we implemented a nonlinear camera measurement model in that we fusioned camera and lidar measurements, as we saw in the graphs above (STEP 4 Results), the precision improved remarkably.**<br />
 
 2) Which results did you achieve? Which part of the project was most difficult for you to complete, and why?<br />
 ** **
