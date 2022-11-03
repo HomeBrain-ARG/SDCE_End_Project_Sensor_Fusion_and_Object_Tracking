@@ -12,7 +12,7 @@ If you have implemented everything correctly, the RMSE plot should show a mean R
 ### 1) Image showing one track image:<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-1_Image-Tracks.png)<br />
 
-### 2) Image showing RSME value below 0.35:<br />
+### 2) Image showing RMSE value below 0.35:<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-1_RMSE.png)<br />
 
 
