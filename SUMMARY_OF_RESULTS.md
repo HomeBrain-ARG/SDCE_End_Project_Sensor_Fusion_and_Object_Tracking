@@ -126,6 +126,4 @@ At the end of the this project we implemented a nonlinear camera measurement mod
 # VIDEO AND PROGRAM TO CREATE IT:<br />
 [Link to download the video!!!](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/tree/main/03_Video)<br />
 
-<video src='https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/03_Video/my_tracking_results.avi' width=180/>
-
 ### NOTE: Since I couldn't get the "loop_over_dataset.py" program to create the video by setting the "make_tracking_movie" flag, I created a small program to create the same (code included).
