@@ -15,6 +15,19 @@ If you have implemented everything correctly, the RMSE plot should show a mean R
 ### 2) Image showing RMSE value below 0.35:<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-1_RMSE.png)<br />
 
+# STEP 2:
+## Your task:<br />
 
+- In the Track class, replace the fixed track initialization values by initialization of track.x and track.P based on the input meas, which is an unassigned lidar measurement object of type Measurement. Transform the unassigned measurement from sensor to vehicle coordinates with the sens_to_veh transformation matrix implemented in the Sensor class. Initialize the track state with 'initialized' and the score with 1./params.window, where window is the window size parameter, as learned in the track management lesson.<br />
+- In the Trackmanagement class, implement the manage_tracks() function to complete the following tasks:<br />
+        - Decrease the track score for unassigned tracks.<br />
+        - Delete tracks if the score is too low or P is too big (check params.py for parameters that might be helpful). Note that you can delete tracks by calling the given function delete_track(), which will remove a track from track_list.<br />
+- In the Trackmanagement class, implement the handle_updated_track() function to complete the following tasks:<br />
+        - Increase the track score for the input track.<br />
+        - Set the track state to 'tentative' or 'confirmed' depending on the track score.<br />
+- Use numpy.matrix() for all matrices as learned in the exercises.<br />
+
+## What should the result be?<br />
+If you have implemented everything correctly, the visualization shows that a new track is initialized automatically where unassigned measurements occur, the true track is confirmed quickly, and the track is deleted after it has vanished from the visible range. You can see that the track has been deleted if the console output says 'deleting track no. 0'. There is one single track without track losses in between, so the RMSE plot should show a single line. Make sure to successfully complete this step and save the RMSE plot before moving to the next.<br />
 
 
