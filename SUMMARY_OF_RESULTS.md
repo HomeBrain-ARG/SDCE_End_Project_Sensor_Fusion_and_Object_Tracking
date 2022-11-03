@@ -73,5 +73,32 @@ The association works properly if you see in the visualization that multiple tra
 ### 3) Image showing two complete frames analysis (frames #196 and #197 executed in VSCode):<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-3_Frames-Analysis.png)<br />
 
+# STEP 4:<br />
+## Your task:<br />
+
+- In the Sensor class, implement the function in_fov() that checks if the input state vector x of an object can be seen by this sensor. The function should return True if x lies in the sensor's field of view, otherwise False. Don't forget to transform from vehicle to sensor coordinates first. The sensor's field of view is given in the attribute fov.<br />
+- In the Sensor class, implement the function get_hx() with the nonlinear camera measurement function h as follows:<br />
+        - transform position estimate from vehicle to camera coordinates,<br />
+        - project from camera to image coordinates,<br />
+        - make sure to not divide by zero, raise an error if needed,<br />
+        - return h(x).<br />
+- In the Sensor class, simply remove the restriction to lidar in the function generate_measurement() in order to include camera as well.<br />
+- In the Measurement class, initialize camera measurement objects including z, R, and the sensor object sensor.<br />
+- After completing these steps, make a movie to showcase your tracking results! You can simply do so by setting exec_visualization = ['show_tracks', 'make_tracking_movie'] in loop_over_dataset.py and re-running the tracking loop.<br />
+
+## What should the result be?<br />
+
+If you have implemented everything correctly, the tracking loop now updates all tracks with lidar measurements, then with camera measurements. The console output shows lidar updates followed by camera updates. The visualization shows that the tracking performs well, again no confirmed ghost tracks or track losses should occur. The RMSE plot should show at least three confirmed tracks. Two of the tracks should be tracked from beginning to end of the sequence (0s - 200s) without track loss. The mean RMSE for these two tracks should be below 0.25.<br />
+
+# Step 4 Results:<br />
+
+### 1) Image showing multitracking objects:<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-4_Image.png)<br />
+
+### 2) Image showing the RMSE values per track in comparison to Step 3 you'll see improve RMSE values:<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-4_RMSE.png)<br />
+
+### 3) Image showing one complete frame analysis (frames #196 executed in VSCode) in that you'll see camera and lidar measurements:<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-4_Frames_Processing.png)<br />
 
 
