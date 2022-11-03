@@ -7,13 +7,9 @@
 - Use numpy.matrix() for all matrices as learned in the exercises.<br />
 
 ## What should the result be?<br />
-If you have implemented everything correctly, the RMSE plot should show a mean RMSE of 0.35 or smaller. You can see the computed mean RMSE in the legend on the right. Make sure to successfully complete this step and save the RMSE plot before moving to the next.
+If you have implemented everything correctly, the RMSE plot should show a mean RMSE of 0.35 or smaller. You can see the computed mean RMSE in the legend on the right. Make sure to successfully complete this step and save the RMSE plot before moving to the next.<br />
 
-## Hints:<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-1_Image-Tracks.png)
 
-- We now want to track 3D objects with a constant velocity model including height estimation, so F and Q will be 6D matrices, in comparison to our 2D tracking in the lesson exercise where we assumed a flat world. Therefore, you need to implement the following matrices: [TODO: include image of Latex formulas].<br />
-- Remember from the repository overview on the last page that there is a Track class and a Measurement class. These classes define your input to the predict() and update() functions. So you can get the track data by calling track.x and track.P, the measurement data by calling meas.z and meas.R. Also note that the measurement has an attribute sensor that tells us which sensor generated this measurement, so you can get the measurement matrix by calling meas.sensor.get_H(). Take a closer look at the two classes for clarification.<br />
-- Note that you don't have a running track management yet, therefore the track state is fixed at 'confirmed' and the score remains at the initial value zero.<br />
-- From misc/params.py, you should load the following parameters: dt, q, dim_state.<br />
 
 
