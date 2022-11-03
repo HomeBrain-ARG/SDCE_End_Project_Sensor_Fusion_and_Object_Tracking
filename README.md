@@ -141,3 +141,4 @@ Parts of this project are based on the following repositories:
 ## *[Please click here to see a summary of my results!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/blob/main/SUMMARY_OF_RESULTS.md)*
 
 ## *[Please click here to see the results and the code associated to every exercise!](https://github.com/HomeBrain-ARG/SDCE_Mid-Term-Project_3D-Object-Detection/tree/main/01_Results)*<br />
+ 
