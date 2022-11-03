@@ -112,9 +112,10 @@ In the third step we implemented a single nearest neighbor data association to a
 At the end of the this project we implemented a nonlinear camera measurement model in that we fusioned camera and lidar measurements, as we saw in the graphs above (STEP 4 Results), the precision improved remarkably.**<br />
 
 2) Which results did you achieve? Which part of the project was most difficult for you to complete, and why?<br />
-** **
+**I managed to understand the different steps to be able to increase the precision in the detection of targets as well as the mathematics that exists behind the applied algorithms. The truth is that the most complicated part was to understand the different matrix calculations behind the different algorithms, for example Mahalanobis. The good part of the development is that there are libraries that facilitate the development and readability of the programs.**<br />
 
 3) Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)?<br />
+
 
 4) Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?<br />
 
