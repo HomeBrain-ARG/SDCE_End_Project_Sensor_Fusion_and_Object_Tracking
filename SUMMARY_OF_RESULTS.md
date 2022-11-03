@@ -70,4 +70,8 @@ The association works properly if you see in the visualization that multiple tra
 ### 2) Image showing the RMSE value per track (in this case 3 tracks):<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-3_RMSE.png)<br />
 
+### 3) Image showing two complete frames analysis (frames #196 and #197 executed in VSCode):<br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-3_Frames-Analysis.png)<br />
+
+
 
