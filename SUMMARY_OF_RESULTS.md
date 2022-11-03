@@ -115,9 +115,10 @@ At the end of the this project we implemented a nonlinear camera measurement mod
 **I managed to understand the different steps to be able to increase the precision in the detection of targets as well as the mathematics that exists behind the applied algorithms. The truth is that the most complicated part was to understand the different matrix calculations behind the different algorithms, for example Mahalanobis. The good part of the development is that there are libraries that facilitate the development and readability of the programs.**<br />
 
 3) Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)?<br />
-
+**Yes, because using both sensors we were able to carry out measurements with lidar to locate objects (cars) in a grid (X;Y) and cameras to detect objects using the different classes present within the CNN pre- trained.**<br />
 
 4) Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?<br />
+**One of the points we verified was the one shown in Step 1, which is the difference between the marker box and the detected object (the box looks out of phase with respect to the vehicle), this is corrected at the end of the project in Step 4 with the implementation of the Mahalanobis algorithm.**<br />
 
 5) Can you think of ways to improve your tracking results in the future?<br />
 
