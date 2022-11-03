@@ -8,7 +8,7 @@
 
 ## What should the result be?<br />
 If you have implemented everything correctly, the RMSE plot should show a mean RMSE of 0.35 or smaller. You can see the computed mean RMSE in the legend on the right. Make sure to successfully complete this step and save the RMSE plot before moving to the next.<br />
-
+# ******************************
 ## Step 1 Results:
 
 ### 1) Image showing one track image:<br />
@@ -16,6 +16,7 @@ If you have implemented everything correctly, the RMSE plot should show a mean R
 
 ### 2) Image showing RMSE value below 0.35:<br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_End_Project_Sensor_Fusion_and_Object_Tracking/blob/main/01_Results/20221102_Step-1_RMSE.png)<br />
+# ******************************
 
 # STEP 2:
 ## Your task:<br />
@@ -31,7 +32,7 @@ If you have implemented everything correctly, the RMSE plot should show a mean R
 
 ## What should the result be?<br />
 If you have implemented everything correctly, the visualization shows that a new track is initialized automatically where unassigned measurements occur, the true track is confirmed quickly, and the track is deleted after it has vanished from the visible range. You can see that the track has been deleted if the console output says 'deleting track no. 0'. There is one single track without track losses in between, so the RMSE plot should show a single line. Make sure to successfully complete this step and save the RMSE plot before moving to the next.<br />
-
+# ******************************
 ## Step 2 Results:
 
 
